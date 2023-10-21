@@ -1,0 +1,42 @@
+Algorithm for the "decode" Java Program:
+
+    1. Import necessary Java utilities.
+
+    2. Define a class named decode.
+
+    3. In the main method, accept user input for a keyword and a sentence, both in uppercase.
+
+    4. Remove spaces and duplicate characters from the keyword using the spaRep method.
+
+    5. Create an array alpha to represent the alphabet from 'A' to 'Z'.
+
+    6. Initialize an array enc to store the encoded keyword. Copy characters from the keyword to enc.
+
+    7. Fill the remaining elements in the enc array with characters not present in the keyword.
+       This step ensures that all letters of the alphabet are accounted for in the encoding.
+
+    8. Initialize an empty string out to store the decoded text.
+
+    9. Loop through each character in the input sentence.
+
+    10. For each character in the sentence, find its corresponding character in the enc array and append the corresponding character from the alpha array to the out string.
+
+    11. If the character is a space, add a space to the out string to maintain spacing.
+
+    12. Display the decoded text to the user as the program's output.
+
+    13. Define a static method spaRep to remove spaces and duplicate characters from a string.
+
+    14. In the spaRep method, initialize a modified string abc.
+
+    15. Loop through each character in the input string.
+
+    16. If a character is a space, skip it; otherwise, add the non-space character to the abc string.
+
+    17. After processing the input string, create a new string xyz to remove duplicate characters.
+
+    18. Loop through the characters in the modified abc string.
+
+    19. If a character is not already present in the xyz string, add it to xyz to remove duplicates.
+
+    20. Return the modified xyz string without spaces and duplicate characters.
