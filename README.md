@@ -6,10 +6,9 @@ removes spaces and duplicates from it, and then uses this keyword to decode a pr
 The program is designed to illustrate the process of encoding and decoding text based on a user-provided keyword.
 
 Prerequisites:
-Before running the program, you need to have the following prerequisites:
-
-Java Development Kit (JDK) installed on your system.
-A Java code editor or integrated development environment (IDE) for running and testing the program.
+ Before running the program, you need to have the following prerequisites:
+    1. Java Development Kit (JDK) installed on your system.
+    2. A Java code editor or integrated development environment (IDE) for running and testing the program.
 
 How to Run the Program:
 Follow these steps to run the "Decode" Java program:
@@ -21,7 +20,8 @@ Follow these steps to run the "Decode" Java program:
     5. Compile and run the program.
     6. The program will prompt you to enter a keyword and a sentence. Follow the on-screen instructions
         and provide the requested input.
-    8. The program will remove spaces and duplicates from the keyword, encode it, and then use the encoded keyword to decode the provided sentence.
+    8. The program will remove spaces and duplicates from the keyword, encode it, and then use the encoded 
+        keyword to decode the provided sentence.
     9. The decoded text will be displayed as the program's output.
 
 Program Logic:
